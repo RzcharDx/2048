@@ -1,23 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "2048.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "jquery-3.7.1.min.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "util.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "2048.js",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
