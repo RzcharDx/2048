@@ -1,4 +1,4 @@
 # 2048
-##2048 is played on a 4×4 grid. Players can use the up, down, left, and right arrow keys to move all blocks.
+## 2048 is played on a 4×4 grid. Players can use the up, down, left, and right arrow keys to move all blocks.
 
 At the beginning of the game, two squares with values of 2 or 4 appear on the grid. After each move, another new square with a value of 2 or 4 appears randomly on the empty square. [2]:66 blocks slide in the specified direction until they are blocked by other blocks or the edge of the grid. If two squares of the same value collide, they will merge into a single square whose value is equal to the sum of the values of the two squares. [3][4] If three squares with the same value collide, only the two squares near the end direction will be merged, and the value of the square closest to the starting point will remain the same. If all the squares in a row or column have the same value, sliding along that row or column merges the first and last two squares. [5] Newly generated blocks can no longer be merged with other blocks during the same move. [6] Blocks with higher values emit a soft glow
