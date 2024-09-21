@@ -2,20 +2,12 @@
   "version": 2,
   "routes": [
     {
-      "src": "/",
+      "src": "^/$",
       "dest": "/2048.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/jquery-3.7.1.min.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/util.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/2048.js"
+      "dest": "/$1"
     }
   ]
 }
