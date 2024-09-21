@@ -2,6 +2,10 @@
   "version": 2,
   "routes": [
     {
+      "src": "/",
+      "dest": "/2048.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }
